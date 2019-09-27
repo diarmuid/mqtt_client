@@ -1,0 +1,15 @@
+[Unit]
+Description=MQTT_Source
+After=network.target
+
+[Service]
+Restart=always
+RestartSec=1
+User=pi
+WorkingDirectory=/home/pi/mqtt_client
+ExecStart=/home/pi/mqtt_client/venv/bin/python /home/pi/mqtt_client/temp_to_mqtt.py 
+Type=simple
+PIDFile=/var/log/mqtt.pid
+
+[Install]
+WantedBy=default.target
