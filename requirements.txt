@@ -4,6 +4,7 @@ adafruit-circuitpython-busdevice==4.0.0
 adafruit-circuitpython-mcp9808==3.2.3
 Adafruit-PlatformDetect==1.3.4
 Adafruit-PureIO==0.2.3
+ds18b20==0.1.3
 paho-mqtt==1.4.0
 rpi-ws281x==4.2.2
 RPi.GPIO==0.7.0
