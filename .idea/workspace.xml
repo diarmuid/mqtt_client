@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b25ad4-0018-4996-90f0-47b8100e53bc" name="Default Changelist" comment="" />
+    <list default="true" id="85b25ad4-0018-4996-90f0-47b8100e53bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sensor_to_influx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mqtt_client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mqtt_client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mqtt.service" beforeDir="false" afterPath="$PROJECT_DIR$/mqtt.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_to_mqtt.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp_to_mqtt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/read_1wire.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/read_1wire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/read_i2c.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/read_i2c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python-config" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python-config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/wheel" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/wheel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/include/python3.7m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/__future__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/__future__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/_bootlocale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/_bootlocale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/_collections_abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/_collections_abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/_dummy_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/_dummy_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/_weakrefset.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/_weakrefset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/base64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/bisect.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/bisect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/codecs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/codecs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/collections" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/config-3.7m-arm-linux-gnueabihf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/copyreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/copyreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/encodings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/fnmatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/fnmatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/functools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/functools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/genericpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/genericpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/hashlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/hashlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/heapq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/heapq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/hmac.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/hmac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/imp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/importlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/io.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/keyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/keyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/lib-dynload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/linecache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/linecache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/locale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/ntpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/ntpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/posixpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/posixpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/re.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/reprlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/reprlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/rlcompleter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/rlcompleter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/shutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/shutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/RPi/_GPIO.cpython-37m-arm-linux-gnueabihf.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/RPi/_GPIO.cpython-37m-arm-linux-gnueabihf.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_rpi_ws281x.cpython-37m-arm-linux-gnueabihf.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_rpi_ws281x.cpython-37m-arm-linux-gnueabihf.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/adafruit_blinka/microcontroller/bcm283x/pulseio/libgpiod_pulsein" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/adafruit_blinka/microcontroller/bcm283x/pulseio/libgpiod_pulsein" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/spidev.cpython-37m-arm-linux-gnueabihf.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/spidev.cpython-37m-arm-linux-gnueabihf.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sysv_ipc.cpython-37m-arm-linux-gnueabihf.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sysv_ipc.cpython-37m-arm-linux-gnueabihf.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/sre_compile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/sre_compile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/sre_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/sre_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/sre_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/sre_parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/struct.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/struct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/tarfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/tarfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/tempfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/tempfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/token.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/tokenize.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/tokenize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/warnings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/weakref.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/weakref.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +94,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RBnJK73VtlT68oo7jmFrz8plr3" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -31,6 +114,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="to_infuxdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mqtt_client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_infuxdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.to_infuxdb" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,5 +154,16 @@
       <updated>1569149284331</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -7,7 +7,7 @@ Restart=always
 RestartSec=1
 User=pi
 WorkingDirectory=/home/pi/mqtt_client
-ExecStart=/home/pi/mqtt_client/venv/bin/python /home/pi/mqtt_client/temp_to_mqtt.py 
+ExecStart=/home/pi/mqtt_client/venv/bin/python /home/pi/mqtt_client/sensor_to_influx.py
 Type=simple
 PIDFile=/var/log/mqtt.pid
 
