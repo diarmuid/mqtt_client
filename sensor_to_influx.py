@@ -9,10 +9,11 @@ from influxdb import InfluxDBClient
 from typing import NamedTuple
 
 # Influx database details
-INFLUXDB_ADDRESS = 'ec2-52-17-10-22.eu-west-1.compute.amazonaws.com'
+INFLUXDB_ADDRESS = 'ec2-34-245-159-219.eu-west-1.compute.amazonaws.com'
 INFLUXDB_USER = 'root'
 INFLUXDB_PASSWORD = 'root'
 INFLUXDB_DATABASE = 'home_db'
+bmp280_calibration_offset = -1.7
 
 
 class SensorData(NamedTuple):
@@ -55,7 +56,9 @@ def send_sensor_data_to_influxdb(sensor_data, influxdb_client):
     if not influxdb_client.ping():
         _init_influxdb_database(influxdb_client)
 
-    influxdb_client.write_points(json_body)
+    if not influxdb_client.write_points(json_body):
+        _init_influxdb_database(influxdb_client)
+
     #print("Sending data to influx {}".format(json_body))
 
 
@@ -83,7 +86,7 @@ _init_influxdb_database(influxdb_client)
 while True:
     #
     try:
-        temp = bmp280.temperature
+        temp = bmp280.temperature + bmp280_calibration_offset
         pressure = bmp280.pressure
     except:
         pass
