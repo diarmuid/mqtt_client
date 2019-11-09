@@ -14,6 +14,7 @@ INFLUXDB_USER = 'root'
 INFLUXDB_PASSWORD = 'root'
 INFLUXDB_DATABASE = 'home_db'
 bmp280_calibration_offset = -1.7
+debug = True
 
 
 class SensorData(NamedTuple):
@@ -42,6 +43,9 @@ def send_sensor_data_to_influxdb(sensor_data, influxdb_client):
     :param influxdb_client:
     :return:
     """
+    if debug:
+        print(repr(sensor_data))
+        return
     json_body = [
         {
             'measurement': sensor_data.measurement,
