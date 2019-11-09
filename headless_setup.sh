@@ -1,3 +1,4 @@
+#!/bin/bash
 src=2019-09-26-raspbian-buster-lite.img
 boot=/media/diarmuid/boot
 rootfs=/media/diarmuid/rootfs
