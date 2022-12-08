@@ -5,7 +5,7 @@ adafruit-circuitpython-mcp9808==3.2.3
 adafruit-circuitpython-tsl2591==1.1.3
 Adafruit-PlatformDetect==1.3.4
 Adafruit-PureIO==0.2.3
-certifi==2019.9.11
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 ds18b20==0.1.3
